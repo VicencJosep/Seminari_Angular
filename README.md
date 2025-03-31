@@ -1,3 +1,8 @@
+#Referències
+- https://www.youtube.com/watch?v=f7unUpshmpA&t=180s
+- GitHub copilo
+- Open AI chatgpt
+
 # AngularSeminari6
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.0.
