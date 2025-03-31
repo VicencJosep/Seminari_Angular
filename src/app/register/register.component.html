@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="register-box">
+      <h2>Crear Cuenta</h2>
+      <form (ngSubmit)="register()">
+        <div class="input-group">
+          <label>Nombre de Usuario</label>
+          <input type="text" [(ngModel)]="username" name="username" required>
+        </div>
+        <div class="input-group">
+          <label>Contraseña</label>
+          <input type="password" [(ngModel)]="password" name="password" required>
+        </div>
+        <div class="input-group">
+          <label>Ocupación Laboral</label>
+          <select [(ngModel)]="occupation" name="occupation" required>
+            <option value="">Selecciona una opción</option>
+            <option value="developer">Desarrollador</option>
+            <option value="designer">Diseñador</option>
+            <option value="manager">Gerente</option>
+            <option value="other">Otro</option>
+          </select>
+        </div>
+        <button type="submit">Registrarse</button>
+      </form>
+    </div>
+  </div>
+  

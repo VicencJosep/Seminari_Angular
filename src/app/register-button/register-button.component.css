@@ -1,0 +1,13 @@
+.register-text {
+  color: navy; /* Azul marino */
+  cursor: pointer; /* Cambia el cursor al pasar por encima */
+  transition: all 0.3s ease; /* Transición suave */
+  text-align: center; /* Centra el texto horizontalmente */
+  display: block; /* Asegura que el elemento ocupe toda la línea */
+  margin: 0 auto; /* Centra horizontalmente si es necesario */
+}
+
+.register-text:hover {
+  color: lightblue; /* Cambia el color al pasar el cursor */
+  text-shadow: 0 0 5px lightblue; /* Efecto de iluminación */
+}
